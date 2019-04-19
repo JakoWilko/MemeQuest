@@ -1,0 +1,145 @@
+Start Program
+Print ("The year is 20XX. Memes have been outlawed and have gone exctinct, or so we thought. An urban myth details of the last pepe hidden on a hard drive in an old mansion. Our hero, Gnash 'Cool guy' Renegade has set off to recover the last meme.")
+Print ("Do you wish to enter?")
+Choice = input
+If Choice = no
+	Print("Before our hero could reach the door, he is stricken with a critical illness known as normie, he is unable to enter the mansion feelsbadman.")
+If  Choice = yes
+	Print ("Gnash opens the door, his eyes underneath his radical shades surverying the room.")
+	Print ("8 doors can be seen around the mansion, each with a number above the door, which do you enter? [1] [2] [3] [4] [5] [6] [7] [8]")
+Choice = input
+
+If Choice = 1
+	Print ("You open the door. This room seems rather clean considering this house has been abandoned since 19XX. Within it is a desk at the back, a chair and a note on the desk that simply reads 3.")
+	Print("Do you wish to stay or leave the room?"[stay][leave])
+If Choice = stay
+	Print("You stay in the room a bit longer.")
+	Print("Do you wish to stay or leave the room?[stay][leave]")
+If Choice = stay
+	Print("You stay in the room for even longer.")
+	Print ("Do you wish to stay or leave the room?[stay][leave]")
+If Choice = stay
+	Print("At this point the player's obession with the bland starter room bordered on creepy, and reflected poorly on their overall personality.")
+	Print("Do you wish to stay or leave the room?[stay][leave]")
+If Choice = stay
+	Print("You try to stay in this bland room for as long as possible but the overwhelming urge to progress the game clutches at your very soul and you leave the room.")
+If Choice = leave
+	Print("You return to the main room.")
+
+If Choice = 2
+	Print("You open the door. This room has minimal dust in it, inside is chest with a lock in the middle of the room. Behind it are 3 cups that are magically shifting around.")
+	Print("Do you pick the left cup, the middle cup or the right cup?" [1] [2] [3])
+If Choice = wrong
+	Print("You lift up the cup to reveal nothing. You set it back down in defeat.")
+If Choice = right
+	Print("You lift up the cup to reveal a key. You use it to unlock the chest and inside is the number 2 carved into the back.")
+	Print("You return to the main room.")
+
+If Choice = 3
+	Print("You open the door. Dust falls off the door and onto you which you quickly brush off. You notice a sign which reads: I am seven letters long, if you eat me you will die. What am I? ")
+If Choice = "Nothing"
+	Print("The number 6 appears. You don't bother to question the physics or the lazy writing of this and swiftly move on.")
+If Choice =! "Nothing"
+	Print("It seemed that NO THING you did had any effect.")
+
+If Choice = 4
+	Print("You see a small imp covered in flames. He doesn't seem hurt by them. Above him is a sign that says Mini-boss. He catches you looking at the sign and says:")
+	Print("That's an attempt at humour from the creator")
+	Print("Anyway, we're supposed to fight so let's get started." [FIGHT] [TALK])
+If Choice = "TALK"
+	Print("You deliver a passionate speech about friendship and comradery. Overcome with emotions, the small flame imp falls to his knees and weeps uncontrollaby:")
+	Print("You've given me a lot to think about, the answer is 7, go forth and save the world, Gnash!")
+If Choice = "FIGHT"
+	Print("You pull out a bottle of water and splash him with it. He seems visibly traumatised and cries out:")
+	Print("OOF that actually hurts quite a bit" [FINISH HIM] [SPARE HIM])
+If Choice = "FINISH HIM"	
+	Print("You unholster your trusty machine pistols and unload the magazines into him. You strike various poses whilst keeping the guns pointed at him and firing. His body is more holes than body at this point. The holes are in the shape of the number 7. Good job, you must be very proud of yourself.")
+If Choice = "SPARE HIM"
+	Print("You realise the strongest power in the universe is the power of friendship and that todays enemies can be tomorrows friends. You spare him and he tells you the answer you seek is 7.")
+
+If Choice = 5
+	Print("You look around the room and notice a sign that says DO NOT ENTER WIP. Looking around more you notice a broken dispenser, some frayed wires, a button and a note. [TAKE NOTE] [FIX PUZZLE]")
+	If Choice = [TAKE NOTE]
+	Print("Wanting to compromise the integrity of the game. You take the note and read the number 4, without fixing the puzzle and earning it. Bad player, your actions here won't be forgotten.")
+	If Choice = [FIX PUZZLE]
+	Print("Not wanting to compromise the integrity of the game. You repair the puzzle and solve it, obtaining the note fair and sqaure, reading the number 4. Good job player, your actions here won't be forgotten.")
+
+If Choice = 6
+	Print("You enter the room. It's a room which blandness could rival the first room, except there is a podium with a singular red button in the middle of the room. [PRESS] [DON'T PRESS]")
+	If Choice = [PRESS]
+		Print("You nervously approach the button. You press down with all your might, AND THEN SUDDENLY! The button pops out, falling onto the floor. On the inside is the number 8.")
+	If Choice = [DON'T PRESS]
+		Print("As much of a cool guy you are. Pressing an unmarked red button could not possible bode well, you continue to ponder the meaning of existence of the button some more.")
+
+If Choice = 7
+	Print("You enter the room. This time its a regular sized water imp. You're unsure how you know what constitutes as regular sized for an imp but you move on from that thought.")
+	Print("Finna sqaure up boi" [FIGHT] [ROAST])
+	If Choice = "FIGHT"
+		Print("You rush him immedaitely, picking him up and using the forward momentum to yeet him out the window behind him. You never hear him hit the ground and you're unsure you want to look outside.")
+		Print("A piece of paper appears to have fallen out his pockeet, you pick it up and read the number 1 on it.")
+	If Choice = "ROAST"
+		Print("You put your hands together, close your eyes and inhale deeply. The water imp is confused as to what you're doing, little does he know. You point your hands upwards, then snap them towards him and exclaim:")
+		Print("B O I !")
+		Print("The imp is blown back onto the floor. It appears your roast was super effective and he is now unconscious.")
+		Print("A piece of paper sticks out of his pocket, you take it and see the number 1 on it.")
+
+If Choice = 8
+Print("You arrive at a pair of doors. On the right handside is a keypad with 7 X's on the display, it seems a code is required unlock it.")
+	If Code = wrong
+		Print ("The display flashes red and resets.")
+	If Code = right
+		Print ("The display flashes green and you hear a click sound. The doors swing open to reveal ever extending darkness.")
+		Print("Do you wish to proceed?" [YES])
+	If Choice = yes
+		Print("You enter the room. You feel like you have no choice. A point of no return if you will...")
+		Print("You quickly realise the ever extending darkness you saw was actually a black curtain over the doorway.")
+		Print("You walk through it")
+		Print("A tall flame imp wearing a trench coat with a surpisingly small face stands before you.")
+		Print("You feel like you know where this is going" [EXPOSE HIM])
+	If Choice = EXPOSE HIM
+		Print("You rush him and pull the trench coat off. It's 3 small flame imps on top of each other!")
+		Print("You said this would work! the one on the bottom cries out")
+		Print("Might work the one in the middle replies")
+		Print("To be fair the view is pretty great from up here the top one gleefully adds")
+		Print("You brandish 3 bottles of water menacingly, hydration is important but so is defeating your enemies")
+		Print("Not that! Okay you win just go on ahead the top one says")
+		Print("You walk past them and in front of you stands an iron door")
+		Print("Next to it is a sign that reads NO RETURN")
+		Print("Attached to the sign is a picture of a small frog")
+		Print("You take the picture, and something about it captivates you. Unable to put it into words but wanting to preserve this for future generations you quickly stuff it into your pocket and vow to spread this picture far and wide for all to see.")
+		Print("Returning your focus to the door. You have what you came for but can still go further.")
+		Print("This is the real point of no return. Are you ready? [LEAVE] [ENTER]")
+	If Choice = LEAVE
+		Print("Having met your goal, you leave. You return to your home town to devote yourself to meme repopulation.")
+		Print("At first people are skeptical, afraid even of such self expression in a time of heavy cencorship")
+		Print("But then people slowly start to like it, like wildfire it spreads")
+		Print("Before mega corporations or the corrupt government can stop it, people are reeing and demanding chicken tendies across the land")
+		Print("5 years after this fateful day, meme reserve parks are built to consolidate efforts to preserve memes for future generations to enjoy")
+		Print("As chaotic as it may be, the people are happy and our hero is renowned as a saint")
+		Print("THE END")
+	If Choice = ENTER
+		Print("Before you can grasp the the handle the door swings open, you walk forward.")
+		Print("Entering the new room, you come across a young man sitting in an armchair")
+		Print("Hi, would you like a seat? he says whilst gesturing to another armchair next to him")
+		Print("You sit down next to him")
+		Print("I'm Jake, the creator of this game. he says plainly. "And would like to thank you for making it this far, what have you thought of the game? [LIKE][DISLIKE]")
+	If Choice = LIKE or DISLIKE
+		Print("Then tell me! You probably know me personally if you're playing this game so tell me all you can good and bad!")
+		Print("Once again, thank you very much for playing!")
+		Print(" _______ _    _ ______   _______ _____  _    _ ______ 
+                        |__   __| |  | |  ____| |__   __|  __ \| |  | |  ____|
+                           | |  | |__| | |__       | |  | |__) | |  | | |__   
+                           | |  |  __  |  __|      | |  |  _  /| |  | |  __|  
+                           | |  | |  | | |____     | |  | | \ \| |__| | |____ 
+                           |_|  |_|  |_|______|    |_|  |_|  \_\\____/|______|
+                                                      
+                         ______ _   _ _____ _____ _   _  _____ 
+			|  ____| \ | |  __ \_   _| \ | |/ ____|
+			| |__  |  \| | |  | || | |  \| | |  __ 
+			|  __| | . ` | |  | || | | . ` | | |_ |
+			| |____| |\  | |__| || |_| |\  | |__| |
+			|______|_| \_|_____/_____|_| \_|\_____|")
+END
+		
+	
+ 

@@ -1,0 +1,38 @@
+Fixes added:
++ Softlock with room 8 code removed
++ Pepe ASCII added for better player immersion
++ Added pauses to allow player to read text for different endings
++ Revamped input system to use integers, no more spelling tests in videogames feelsgoodman
++ Add while loop to catch invalid choices ("Please try again m8")
+
+Jack:
+- Remove softlock when going to room 8 and you don't have the correct code - ADDED
++ Writing was enjoyable
+
+Daniel:
++ Loved the comedy/writing
+- Change commands to 1,2,3 with associated actions written next to it - ADDED
+- Add something to loop back, "please choose a valid option" - ADDED
+- Use os.system("cls") from the os library to prevent the text piling up
++ Overall good game feelsgoodman
+
+Alex:
+- Break up text was hard to read
+- Fix the bug with 8 door incorrect prompt - ADDED (fixed itself somehow lol, probably using input to freeze)
+
+Jordan:
+- Make room 3 riddle more obvious 
++ Liked options and choice
+
+Sam:
+- Fix inputs - ADDED
++ Liked writing
+
+
+More Feedback:
+- Foolproof upper and lowercase inputs - Redundant if 1,2,3 choice system is implemented - ADDED
++ Loved the #relatable moments
+- Make text all lined up / not all over the place
+- Make it so rooms remember choices that happened (gives more weight to choices made) - Will need to have a set
+of seperate variables that act as flags and create seperate if statements in the hub subroutine e.g.
+- Add pepe ascii at the end - ADDED

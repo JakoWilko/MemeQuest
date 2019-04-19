@@ -1,0 +1,214 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.17134}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs24\lang9 BEGIN\par
+import random\par
+def TrueEnd()\par
+\tab WRITE("Before you can grasp the handle the door swings open, you walk\par
+\tab forward.")\par
+\tab WRITE("Entering the new room, you across a young man sitting in an\par
+\tab armchair")\par
+\tab WRITE("Hi, would you like a seat? he says whilst gesturing to another\par
+\tab armchair next to him")\par
+\tab WRITE("You sit down next to him")\par
+\tab PlayerInput = Input("I'm Jake, the creator of this game. Thank you for\par
+\tab playing this game and making it this far. What have you thought of the game\par
+\tab so far? [LIKE] [DISLIKE]")\par
+\tab WHILE PlayerInput = "LIKE" or "DISLIKE"\par
+\tab\tab WRITE("Then tell me! You probably know me personally if you're\par
+\tab\tab playing this game so tell me all you can good and bad!")\par
+\tab\tab WRITE("Once again, thank you very much for playing!")\par
+\tab\tab WRITE("THE TRUE ENDING")\par
+\tab\par
+def End()\par
+\tab WRITE("Having met your goal, you leave. You return to your home town to\par
+\tab devote yourself to meme repopulation.")\par
+\tab WRITE("At first people are skeptical, afraid of such self expression in a time\par
+\tab of heavy censorship")\par
+\tab WRITE("But then people slowly start to like it, like wildfire lit spreads")\par
+\tab WRITE("Before mega corporations or the corrupt government can stop it, \par
+\tab people are reeing and demanding chicken tendies across the land")\par
+\tab WRITE("5 years after this fateful day, meme reserve parks are built to\par
+\tab consolidate efforts to preserve memes for future generations to enjoy")\par
+\tab WRITE("As chaotic as it may be, the people are happy and our hero is\par
+\tab renowned as a saint")\par
+\tab WRITE("THE END")\par
+\charscalex100\lang2057 def Room1()\par
+\tab WRITE("You open the door. This room seems rather clean considering this \tab house has been abandoned since 19XX. Within it is a desk at the back, a chair \tab and a note on the desk that simply reads 3.")\par
+\tab StayOrLeave = input("Do you wish to stay or leave the room? [Stay][Leave]")\par
+\tab IF StayOrLeave = "Leave"\par
+\tab\tab WRITE("You return to the main room.")\par
+\tab\tab Hub()\par
+\tab ELIF StayOrLeave = "Stay"\par
+\tab\tab WRITE("You stay in the room a bit longer")\par
+\tab\tab StayOrLeave = input("Do you wish to stay or leave the room? [Stay]\tab\tab [Leave]")\par
+\tab\tab IF StayOrLeave = "Leave"\par
+\tab\tab\tab WRITE("You return to the main room.")\par
+\tab\tab\tab Hub()\par
+\tab\tab ELIF StayOrLeave = "Stay"\par
+\tab\tab\tab WRITE("You stay in the room for even longer.")\par
+\tab\tab\tab StayOrLeave = input("Do you wish to stay or leave the room? \tab\tab\tab [Stay][Leave]")\par
+\tab\tab\tab IF StayOrLeave = "Leave"\par
+\tab\tab\tab\tab WRITE("You return to the main room.")\par
+\tab\tab\tab\tab Hub()\par
+\tab\tab\tab ELIF StayOrLeave = "Stay"\par
+\tab\tab\tab\tab WRITE("At this point the player's obsession with the \tab\tab\tab\tab bland starter room bordered on creepy and reflected \tab\tab\tab\tab poorly on their overall personality.")\par
+\tab\tab\tab\tab StayOrLeave = Input("Do you wish to stay or leave the \tab\tab\tab\tab room? [Stay] [Leave]")\par
+\tab\tab\tab\tab IF StayOrLeave = "Leave"\par
+\tab\tab\tab\tab\tab WRITE("You return to the main room.")\par
+\tab\tab\tab\tab\tab Hub()\par
+\tab\tab\tab\tab ELIF StayOrLeave = "Stay"\par
+\tab\tab\tab\tab\tab WRITE("You try to stay in this bland room for as \tab\tab\tab\tab\tab long as possible but the overwhelming urge to \tab\tab\tab\tab\tab progress the game clutches at your very soul \tab\tab\tab\tab\tab and you leave the room.")\par
+\tab\tab\tab\tab\tab Hub()\par
+\charscalex0\lang9 def Room2()\par
+\tab WRITE("You open the door. This room has minimal dust in it, inside is a \tab chest with a lock in the middle of the room. Behind it are 3 cups that are \tab magically shifting around.")\par
+\tab CupChoice = int(input("Do you pick the left cup, the middle cup or the right \tab cup? [1] [2] [3]"))\par
+\tab random.randomint(1,3) = ActualCup\par
+\tab WHILE CupChoice =! Actual Cup\par
+\tab\tab WRITE("You lift up the cup to reveal nothing. You set it back down in \tab\tab defeat.")\par
+\tab\tab CupChoice=int(input("Guess again lol."))\par
+\par
+\tab WRITE("You lift up the cup to reveal a key. You use it to unlock \tab\tab\tab the chest and inside is the number 2 carved into the back.")\par
+\tab WRITE("You return to the main room.")\par
+\tab Hub()\par
+def Room3()\par
+\tab RiddleAnswer = Input("You open the door. Dust falls off the door and onto \tab you which you quickly brush off. You notice a sign which reads: I am \tab seven letters long, if \tab you eat me you will die. What am I?")\par
+\tab WHILE RiddleAnswer =! "Nothing"\par
+\tab\tab RiddleAnswer=Input("It seemed that NO THING you did had any \tab\tab\tab effect.")\par
+\tab WRITE("The number 6 appears. You don't bother to question the physics or \tab the lazy writing of this and swiftly move on.")\par
+\tab Hub()\par
+def Room 4()\par
+\tab WRITE("You see a small flame imp covered in flames. He doesn't seem hurt \tab by them. Above him is a sign that says Mini-boss, he catches you looking at \tab the sign and says:")\par
+\tab WRITE("That's an attempt at humour from the creator")\par
+\tab FightOrTalk = input("Anyway, we're supposed to fight so let's get started. \tab [Fight] [Talk]")\par
+\tab IF FightOrTalk = "Talk"\par
+\tab\tab WRITE("You deliver a passsionate speech about friendship and \tab\tab\tab comradery. Overcome with emotions, the small flame imp falls to his \tab\tab knees and weeps uncontrollably.")\par
+\tab\tab WRITE("You've given me a lot to think about, then answer you seek is \tab\tab 7, go forth and save the world, Gnash!")\par
+\tab\tab Hub()\par
+\tab IF FightOrTalk = "Fight"\par
+\tab\tab WRITE("You pull out a bottle of water and splash him with it. He \tab\tab\tab seems visibly traumatised and cries out:")\par
+\tab\tab FinishOrSpare = input("OOF that actually hurts quite a bit [FINISH \tab\tab\tab HIM] [SPARE HIM]")\par
+\tab\tab IF FinishOrSpare = "FINISH HIM"\par
+\tab\tab\tab WRITE("You unholster your trust machine pistols and unload \tab\tab\tab the magazines into him. You strike various poses whilst\tab\tab\tab\tab keeping the guns pointed at him and firing. His body is more \tab\tab\tab holes than body at this point. The holes are in the shape of the \tab\tab\tab number 7. Good job, you must be very proud of yourself.")\par
+\tab\tab\tab Hub()\par
+\tab\tab IF FinishOrSpare = "SPARE HIM"\par
+\tab\tab\tab WRITE("You realise the strongest power in the universe is the \tab\tab\tab power of friendship and that todays enemies can be \tab\tab\tab\tab tomorrows friends. You spare him and he tells you the answer  \tab\tab\tab you seek is 7.")\par
+\tab\tab\tab Hub()\par
+def Room5()\par
+\tab TakeOrFix = input("You look around the room and notice a sign that says DO \tab NOT ENTER WIP. Looking around some more you notice a broken \tab dispenser, \tab some frayed wires, a button and a note. [TAKE NOTE] [FIX \tab PUZZLE]")\par
+\tab IF TakeOrFix = "TAKE NOTE"\par
+\tab\tab WRITE("Wanting to compromise the integrity of the game, you take \tab\tab the note and read the number 4, without fixing the puzzle and \tab\tab\tab earning it. Bad player, your actions here won't be forgotten.")\par
+\tab\tab Hub()\par
+\tab IF TakeOrFix = "FIX PUZZLE"\par
+\tab\tab WRITE("Not wanting to compromise the intergrity of the game, you \tab\tab repair the puzzle and solve it, obtaining the note fair and sqaure, \tab\tab\tab reading the number 4. Good job player, your actions here won't be \tab\tab forgotten")\par
+\tab\tab Hub()\par
+def Room6()\par
+\tab PressOrNoPress = Input("You enter the room. It's a room with blandness that \tab could rival the first room, except there is a podium with a singular red button \tab in the middle off the room. [PRESS] [DON'T PRESS]")\par
+\tab WHILE PressOrNoPress = "DON'T PRESS"\par
+\tab\tab PressOrNoPress = input("As much of a cool guy you are. Rushing in \tab\tab and making an uniformed decision which could potentially \tab\tab\tab be life changing is not a very cool thing to do, you decide to play it \tab\tab safe and ponder the meaning of the existnce of such a button some \tab\tab more.[PRESS] [DON'T PRESS]")\par
+\tab IF PressOrNoPress = "PRESS"\par
+\tab\tab WRITE("You nervously approach the button. You press down with all \tab\tab your might, AND THEN SUDDENLY! The button pops out, falling onto \par
+\tab\tab the floor. On the inside is the number 8.\par
+\tab\tab Hub()\par
+def Room7()\par
+\tab WRITE("You enter the room. This time its a regular sized water imp. You're \tab\tab unsure how you know what constitutes  as regular sized for an imp but\par
+\tab you move on from that thought.")\par
+\tab FightOrRoast = input("Finna sqaure up boi [FIGHT] [ROAST]")\par
+\tab IF FightOrRoast = "FIGHT"\par
+\tab\tab WRITE("\charscalex100\lang2057 You rush him immediatly, picking him up and using the\par
+\tab\tab forward momentum to yeet him out the window behind him.\par
+\tab\tab You never hear him hit the ground and you're unsure you\par
+\tab\tab want to look outside.)\par
+\tab\tab WRITE("A piece of paper appears to have fallen out of his pocket, you\par
+\tab\tab pick it up and read the number 1 on it.")\par
+\tab\tab Hub()\par
+\tab IF FightOrRoast = "ROAST"\par
+\tab\tab WRITE("You put your hands together, close your eyes and inhale \tab\tab\tab deeply. The water imp is confused as to what you're doing, little \par
+\tab\tab does he know. You point your hands upwards, then snap them\par
+\tab\tab together and exclaim:")\par
+\tab\tab WRITE("B O I ! ")\par
+\tab\tab WRITE("The imp is blown back onto the floor. It appears your roast\par
+\tab\tab was super effective and he is now unconscious.")\par
+\tab\tab WRITE("A piece of paper sticks out of his pocket, you take it and see\par
+\tab\tab the number 1 on it.")\par
+\tab\tab Hub()\par
+def Room8()\par
+\tab Code = input("You arrive at a pair of doors. On the right handside is a keypad \par
+\tab with 7 X's on the display, it seems a code is required to unlock it.")\par
+\tab IF Code =! Actual Code or "leave"\par
+\tab\tab Code = input("The display flashes red and resets. Try again or type\par
+\tab\tab leave.")\par
+\tab IF Code = "leave"\par
+\tab\tab Hub()\par
+\tab IF Code = Actual Code\par
+\tab\tab WRITE("The display flashes green and you hear a click. The doors\par
+\tab\tab swing open to reveal ever extending darkness")\par
+\tab\tab WRITE("You enter the room. You feel like you have no choice. A point\par
+\tab\tab of no return if you will...")\par
+\tab\tab WRITE("You quickly realise the ever extending darkness you saw was\par
+\tab\tab actually a black curtain over the doorway.")\par
+\tab\tab WRITE("You walk through it.")\par
+\tab\tab WRITE("A tall flame imp wearing a trench coat with a surprisingly small\par
+\tab\tab face stands before you.")\par
+\tab\tab EXPOSEHIM = Input("You feel like you know where this is going\par
+\tab\tab [EXPOSE HIM]")\par
+\tab\tab IF EXPOSEHIM = "EXPOSE HIM"\par
+\tab\tab\tab WRITE("You rush him and pull off the trench coat off. It's 3\par
+\tab\tab\tab small flame imps on top of each other!")\par
+\tab\tab\tab WRITE("You said this would work! the one on the bottom\par
+\tab\tab\tab cries out.")\par
+\tab\tab\tab WRITE("Might work the one in the middle replies")\par
+\tab\tab\tab WRITE("To be fair the view is pretty great from up here the \par
+\tab\tab\tab top one gleefully adds")\par
+\tab\tab\tab WRITE("You brandish 3 bottles of water menacingly,\par
+\tab\tab\tab hydration is important but so is defeating your\par
+\tab\tab\tab enemies")\par
+\tab\tab\tab WRITE("Not that! Okay you win just go ahead the top one\par
+\tab\tab\tab says")\par
+\tab\tab\tab WRITE("You walk past them and in front of you stands an iron\par
+\tab\tab\tab door")\par
+\tab\tab\tab WRITE("Next to it is a sign that reads NO RETURN")\par
+\tab\tab\tab WRITE("Attached is a picture of a small frog")\par
+\tab\tab\tab WRITE("You take the picture, and something about it \par
+\tab\tab\tab captivates you. Unable to put it into words but wanting\par
+\tab\tab\tab to preserve this for future generations you quickly stuff it\par
+\tab\tab\tab into your pocket and vow to spread this picture far and wide\par
+\tab\tab\tab for all to see.")\par
+\tab\tab\tab WRITE("Returning your focus to the door. You have what you\par
+\tab\tab\tab came for but can still go further.")\par
+\tab\tab\tab FinalChoice = Input("This is the real point of no return. Are you\par
+\tab\tab\tab ready? [LEAVE][ENTER]\par
+\tab\tab\tab IF FinalChoice = "LEAVE\par
+\tab\tab\tab\tab End()\par
+\tab\tab\tab IF FinalChoice = "ENTER"\par
+\tab\tab\tab\tab TrueEnd()\charscalex0\lang9\tab\par
+def Hub()\par
+\charscalex100\lang2057\tab WRITE("Gnash opens the door, his eyes underneath his radical shades \tab surveying  the room.")\par
+\tab WRITE("8 doors can be seen around the mansion, each with a number above \tab the door, which do you enter? [1] [2] [3] [4] [5] [6] [7] [8]")\par
+\tab RoomChoice = int(input())\par
+\charscalex0\lang9\tab IF RoomChoice = 1\par
+\tab\tab Room1()\par
+\tab IF RoomChoice = 2\par
+\tab\tab Room2()\par
+\tab IF RoomChoice = 3\par
+\tab\tab Room3()\par
+\tab IF RoomChoice = 4\par
+\tab\tab Room4()\par
+\tab IF RoomChoice = 5\par
+\tab\tab Room5()\par
+\tab IF RoomChoice = 6\par
+\tab\tab Room6()\par
+\tab IF RoomChoice = 7\par
+\tab\tab Room7()\par
+\tab IF RoomChoice = 8\par
+\tab\tab Room8() \par
+\par
+WRITE("\charscalex100\lang2057 The year is 20XX. Memes have been outlawed and have gone exctint, or so we thought. An ubran myth details of the last pepe hidden on a hard drive in an old mansion. Our hero, Gnash 'Cool guy' Renegade has set off to recover the last meme.")\par
+Enter = input("Do you wish to enter? [Yes] [No]")\par
+IF Enter == "No"\par
+\tab WRITE("Before our hero  could reach the door, he is stricken with a critical illness known as normie, he is unable to enter the mansion feelsbadman")\par
+\tab WRITE("You got the bad ending :(")\par
+IF Enter == "Yes"\par
+\tab Hub()\par
+END\par
+}
+ 
